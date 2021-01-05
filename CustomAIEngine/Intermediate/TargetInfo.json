@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CustomAIEngine",
+			"Path": "C:\\Users\\snsth\\OneDrive\\Documents\\GitUnreal\\AIEngine\\CustomAIEngine\\Source\\CustomAIEngine.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CustomAIEngineEditor",
+			"Path": "C:\\Users\\snsth\\OneDrive\\Documents\\GitUnreal\\AIEngine\\CustomAIEngine\\Source\\CustomAIEngineEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\snsth\\OneDrive\\Documents\\GitUnreal\\AIEngine\\CustomAIEngine\\Source\\CustomAIEngine\\CustomAIEngine.Build.cs",
+		"C:\\Users\\snsth\\OneDrive\\Documents\\GitUnreal\\AIEngine\\CustomAIEngine\\Source\\CustomAIEngine.Target.cs",
+		"C:\\Users\\snsth\\OneDrive\\Documents\\GitUnreal\\AIEngine\\CustomAIEngine\\Source\\CustomAIEngineEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

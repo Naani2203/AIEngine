@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CustomAIEngine.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D74FF4DF-1FF1-473D-B99F-9D57DA9BE118}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CustomAIEngine.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CustomAIEngineEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A82E6711-A59D-4764-9143-7DE7384CF1B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CustomAIEngine">
+      <UniqueIdentifier>{03052BD0-A71E-4A03-8AC0-060BAE5695F3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CustomAIEngine\BasicRTSPlayerController.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\BasicRTSPlayerController.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CustomAIEngine\CustomAIEngine.Build.cs">
+      <Filter>Source\CustomAIEngine</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CustomAIEngine\CustomAIEngine.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\CustomAIEngine.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomAIEngine\CustomAIEngineCharacter.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\CustomAIEngineCharacter.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomAIEngine\CustomAIEngineGameMode.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\CustomAIEngineGameMode.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomAIEngine\CustomAIEnginePlayerController.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\CustomAIEnginePlayerController.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomAIEngine\RTSHud.cpp">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomAIEngine\RTSHud.h">
+      <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
