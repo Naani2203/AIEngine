@@ -15,15 +15,16 @@ FVector2D ARTSHud::GetMousePos2D()
 
 void ARTSHud::DrawHUD()
 {
-	if (FoundActors.Num() > 0)
-	{
-		for (int32 i = 0; i < FoundActors.Num(); i++)
-		{
-			FoundActors[i]->SetDeSelected();
-		}
-	}
 	if (bStartSelecting == true)                      // improve this
 	{
+		if (FoundActors.Num() > 0)
+		{
+			for (int32 i = 0; i < FoundActors.Num(); i++)
+			{
+				FoundActors[i]->SetDeSelected();
+				
+			}
+		}
 		FoundActors.Empty(); 
 		CurrentPoint = GetMousePos2D();
 		DrawRect(FLinearColor(0, 0, 1, 0.15f), InitialPoint.X, InitialPoint.Y, CurrentPoint.X-InitialPoint.X, CurrentPoint.Y-InitialPoint.Y);

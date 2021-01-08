@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CustomAIEngine.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D74FF4DF-1FF1-473D-B99F-9D57DA9BE118}</UniqueIdentifier>
+      <UniqueIdentifier>{74350305-F6E0-47E1-A816-FC6E6E060362}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CustomAIEngine.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A82E6711-A59D-4764-9143-7DE7384CF1B6}</UniqueIdentifier>
+      <UniqueIdentifier>{367E112F-6ABF-4810-8F2A-B32DFAD9322A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CustomAIEngine">
-      <UniqueIdentifier>{03052BD0-A71E-4A03-8AC0-060BAE5695F3}</UniqueIdentifier>
+      <UniqueIdentifier>{7FDE673B-B273-4E35-B3BD-5C14F842BA05}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CustomAIEngine\BasicRTSPlayerController.cpp">
       <Filter>Source\CustomAIEngine</Filter>
@@ -70,6 +70,36 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\CustomAIEngine\RTSHud.h">
       <Filter>Source\CustomAIEngine</Filter>
+    </ClInclude>
+    <Filter Include="Source\CustomAIEngine\Private">
+      <UniqueIdentifier>{EAF5448C-ED18-4712-9B65-F9B06917F73C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CustomAIEngine\Private\Kinematic.cpp">
+      <Filter>Source\CustomAIEngine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CustomAIEngine\Private\KinematicSeek.cpp">
+      <Filter>Source\CustomAIEngine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CustomAIEngine\Private\Statics.cpp">
+      <Filter>Source\CustomAIEngine\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CustomAIEngine\Private\SteeringOutput.cpp">
+      <Filter>Source\CustomAIEngine\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CustomAIEngine\Public">
+      <UniqueIdentifier>{41794EAF-0B86-4C6B-A8F2-8A1E4F317376}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CustomAIEngine\Public\Kinematic.h">
+      <Filter>Source\CustomAIEngine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CustomAIEngine\Public\KinematicSeek.h">
+      <Filter>Source\CustomAIEngine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CustomAIEngine\Public\Statics.h">
+      <Filter>Source\CustomAIEngine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CustomAIEngine\Public\SteeringOutput.h">
+      <Filter>Source\CustomAIEngine\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

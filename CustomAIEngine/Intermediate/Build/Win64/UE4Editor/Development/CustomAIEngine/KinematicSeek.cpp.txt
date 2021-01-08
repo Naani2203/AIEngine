@@ -1,0 +1,2 @@
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\Definitions.CustomAIEngine.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine\Public\KinematicSeek.h

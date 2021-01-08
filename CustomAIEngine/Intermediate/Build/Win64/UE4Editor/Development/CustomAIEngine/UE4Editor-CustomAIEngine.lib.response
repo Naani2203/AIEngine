@@ -7,6 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\CustomAIEngineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\Kinematic.cpp.obj"
+"C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\KinematicSeek.cpp.obj"
+"C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\Statics.cpp.obj"
+"C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\SteeringOutput.cpp.obj"
 "C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\BasicRTSPlayerController.cpp.obj"
 "C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\CustomAIEngine.cpp.obj"
 "C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\CustomAIEngineCharacter.cpp.obj"
