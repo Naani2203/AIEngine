@@ -4,6 +4,8 @@ D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/SteeringOutput.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine\Public\Kinematic.h
 C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Inc\CustomAIEngine\CustomAIEngineCharacter.generated.h
 D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
@@ -37,3 +39,5 @@ D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\Head
 D:\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
 D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/KinematicSeek.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/Statics.h

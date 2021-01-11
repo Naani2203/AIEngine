@@ -1,2 +1,5 @@
 C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Intermediate\Build\Win64\UE4Editor\Development\CustomAIEngine\Definitions.CustomAIEngine.h
 C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine\Public\KinematicSeek.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/Statics.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/SteeringOutput.h
+C:\Users\snsth\OneDrive\Documents\GitUnreal\AIEngine\CustomAIEngine\Source\CustomAIEngine/Public/Kinematic.h

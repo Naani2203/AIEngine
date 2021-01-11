@@ -30,7 +30,7 @@ float Kinematic::GetNewOrientation(float current, FVector velocity)
 	if (velocity.IsZero() == false)
 	{
 		//Calculate orientation from velocity
-		return atan2(-velocity.Y, velocity.X);
+		return atan2(velocity.Y, velocity.X);
 	}
 	else
 	{

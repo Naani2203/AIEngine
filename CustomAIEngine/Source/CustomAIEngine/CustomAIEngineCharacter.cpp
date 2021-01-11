@@ -11,6 +11,8 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include <CustomAIEngine/Public/KinematicSeek.h>
+
 
 ACustomAIEngineCharacter::ACustomAIEngineCharacter()
 {
@@ -56,12 +58,20 @@ ACustomAIEngineCharacter::ACustomAIEngineCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+	
 }
+
+
 
 void ACustomAIEngineCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
 
+	if (IsSet == false)
+	{
+		position = GetActorLocation();
+		position.Z = 190;
+	}
 	if (CursorToWorld != nullptr)
 	{
 		if (UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled())
@@ -88,6 +98,12 @@ void ACustomAIEngineCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
 	}
+
+	if (CanMove == true)
+	{
+		SeekKinematic(MovePos);
+		UpdateMovement(steeringOutput);
+	}
 }
 	void ACustomAIEngineCharacter::SetSelected()
 	{
@@ -97,4 +113,31 @@ void ACustomAIEngineCharacter::Tick(float DeltaSeconds)
 	void ACustomAIEngineCharacter::SetDeSelected()
 	{
 		CursorToWorld->SetVisibility(false);
+	}
+
+	void ACustomAIEngineCharacter::UpdateMovement(AIEngine::Movement::SteeringOutput steerOutput)
+	{
+
+		position += (velocity * GetWorld()->GetDeltaSeconds());
+		orientation += (rotation * GetWorld()->GetDeltaSeconds());
+
+		
+		position.Z = 190;
+
+		SetActorLocation(position);
+		SetActorRotation(FRotator(0, FMath::RadiansToDegrees(orientation), 0),ETeleportType::None);
+
+		velocity += steerOutput.velocity * GetWorld()->GetDeltaSeconds();
+		rotation += steerOutput.rotation * GetWorld()->GetDeltaSeconds();
+	}
+
+	void ACustomAIEngineCharacter::SeekKinematic(FVector pos)
+	{
+		AIEngine::Movement::KinematicSeek KSeek;
+		KSeek.MaxSpeed = 50.f;
+		KSeek.Character.Position = GetActorLocation();
+		KSeek.Character.Orientation = GetActorRotation().Yaw;
+		KSeek.Target.Position = pos;
+		steeringOutput = KSeek.GetSteering();
+		orientation = KSeek.Character.Orientation;
 	}

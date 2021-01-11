@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerController.h"
 #include "DrawDebugHelpers.h"
 #include "RTSHud.h"
+#include "GameFramework/Actor.h"
+#include "CustomAIEngineCharacter.h"
 #include "BasicRTSPlayerController.generated.h"
 
 /**
@@ -21,6 +23,7 @@ public:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
 
+	void SeekKinematic(FVector pos);
 	ARTSHud* HUDptr;
 
 protected:
@@ -28,6 +31,8 @@ protected:
 	void SelectionPressed();
 	void SelectionReleased();
 	void MoveReleased();
+
+
 	TArray <ACustomAIEngineCharacter*> SelectedActors;
 
 };

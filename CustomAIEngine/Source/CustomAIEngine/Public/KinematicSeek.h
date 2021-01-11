@@ -3,13 +3,26 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include <CustomAIEngine/Public/Statics.h>
+#include <CustomAIEngine/Public/SteeringOutput.h>
+#include <CustomAIEngine/Public/Kinematic.h>
 
 /**
  * 
  */
-class CUSTOMAIENGINE_API KinematicSeek
-{
-public:
-	KinematicSeek();
-	~KinematicSeek();
-};
+namespace AIEngine {
+	namespace Movement {
+		class CUSTOMAIENGINE_API KinematicSeek : Kinematic
+		{
+		public:
+			KinematicSeek();
+			~KinematicSeek();
+
+			AIEngine::Movement::Statics Character;
+			AIEngine::Movement::Statics Target;
+			float MaxSpeed;
+
+			AIEngine::Movement::SteeringOutput GetSteering();
+		};
+	}
+}

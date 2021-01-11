@@ -2,6 +2,7 @@
 
 
 #include "BasicRTSPlayerController.h"
+#include <CustomAIEngine/Public/KinematicSeek.h>
 
 ABasicRTSPlayerController::ABasicRTSPlayerController()
 {
@@ -35,15 +36,26 @@ void ABasicRTSPlayerController::SelectionReleased()
 	SelectedActors = HUDptr->FoundActors;
 }
 
+void ABasicRTSPlayerController::SeekKinematic(FVector pos)
+{
+	AIEngine::Movement::KinematicSeek KSeek;
+	KSeek.Character.Position = AActor::GetActorLocation();
+	KSeek.Character.Orientation = AActor::GetActorRotation().Yaw;
+}
+
 void ABasicRTSPlayerController::MoveReleased()
 {
 	if (SelectedActors.Num() > 0)
 	{
 		for (int32 i = 0; i < SelectedActors.Num(); i++)
 		{
+			
 			FHitResult Hit;
 			GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, Hit);
 			FVector MoveLocation = Hit.Location;
+			DrawDebugSphere(GetWorld(), MoveLocation, 10, 26, FColor(181, 0, 0), false, 1, 0, 2);
+			SelectedActors[i]-> MovePos = MoveLocation;
+			SelectedActors[i] -> CanMove = true;
 		}
 	}
 }

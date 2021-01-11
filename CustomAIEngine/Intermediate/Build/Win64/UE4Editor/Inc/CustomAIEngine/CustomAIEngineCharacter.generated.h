@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CUSTOMAIENGINE_CustomAIEngineCharacter_generated_h
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_SPARSE_DATA
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_RPC_WRAPPERS
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_SPARSE_DATA
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_RPC_WRAPPERS
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACustomAIEngineCharacter(); \
 	friend struct Z_Construct_UClass_ACustomAIEngineCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACustomAIEngineCharacter)
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_INCLASS \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesACustomAIEngineCharacter(); \
 	friend struct Z_Construct_UClass_ACustomAIEngineCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACustomAIEngineCharacter)
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACustomAIEngineCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACustomAIEngineCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACustomAIEngineCharacter(ACustomAIEngineCharacter&&); \
@@ -58,33 +58,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACustomAIEngineCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACustomAIEngineCharacter)
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TopDownCameraComponent() { return STRUCT_OFFSET(ACustomAIEngineCharacter, TopDownCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ACustomAIEngineCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(ACustomAIEngineCharacter, CursorToWorld); }
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_9_PROLOG
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_GENERATED_BODY_LEGACY \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_PROLOG
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_SPARSE_DATA \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_RPC_WRAPPERS \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_INCLASS \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_STANDARD_CONSTRUCTORS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_SPARSE_DATA \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_RPC_WRAPPERS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_INCLASS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_GENERATED_BODY \
+#define CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_SPARSE_DATA \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_SPARSE_DATA \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	CustomAIEngine_Source_CustomAIEngine_CustomAIEngineCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
